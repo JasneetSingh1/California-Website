@@ -119,9 +119,6 @@ nav{
     height: 90vh;
 }
 
-.main-page--img{
-    background-image: url(/assets/landing-page.jpg);
-}
 
 .landing-page__content{
     display: flex;
@@ -246,8 +243,20 @@ nav{
 }
 
 
+/* HOME PAGE */
+
+.main-page--img{
+    background-image: url(/assets/landing-page.jpg);
+}
+
 /* CAPITAL PAGE */
 
 .capital-page--img{
     background-image: url('/assets/sacramento.jpg');
+}
+
+/* LOS ANGELES */
+
+.los-angeles--img{
+    background-image: url(/assets/los-angeles.jpg);
 }
