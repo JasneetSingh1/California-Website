@@ -246,7 +246,7 @@ nav{
 /* HOME PAGE */
 
 .main-page--img{
-    background-image: url(/assets/landing-page.jpg);
+    background-image: url('/assets/landing-page.jpg');
 }
 
 /* CAPITAL PAGE */
@@ -258,5 +258,11 @@ nav{
 /* LOS ANGELES */
 
 .los-angeles--img{
-    background-image: url(/assets/los-angeles.jpg);
+    background-image: url('/assets/los-angeles.jpg');
+}
+
+/* SAN FRANCISCO */
+
+.san-francisco--img{
+    background-image: url('/assets/san-francisco.jpg');
 }
