@@ -113,11 +113,14 @@ nav{
 /* HEADER */
 
 .landing-page{
-    background-image: url(/assets/landing-page.jpg);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
     height: 90vh;
+}
+
+.main-page--img{
+    background-image: url(/assets/landing-page.jpg);
 }
 
 .landing-page__content{
@@ -240,4 +243,11 @@ nav{
     font-weight: 500;
     padding-right: 16px;
     
+}
+
+
+/* CAPITAL PAGE */
+
+.capital-page--img{
+    background-image: url('/assets/sacramento.jpg');
 }
