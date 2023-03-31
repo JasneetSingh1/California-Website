@@ -184,7 +184,7 @@ nav{
     align-items: center;
     justify-content: center;
     background-color: #ffe26a;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .about__title{
@@ -202,7 +202,7 @@ nav{
     width: 100%;
     margin: 0 auto;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .about__content__para{
@@ -218,12 +218,17 @@ nav{
 
 .about__content__wrapper{
     width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 .about__content__wrapper__img{
     width: 100%;
+    max-width: 800px;
     border-radius: 20px;
     padding: 0 24px;
+    float: right;
 }
 
 .about__aside{
@@ -231,6 +236,9 @@ nav{
   line-height: 2;
   font-style: italic;
   padding: 0 24px;
+  display: flex;
+  justify-content: end;
+  align-items: start;
 }
 
 .about__aside__para{
@@ -239,7 +247,9 @@ nav{
     float: right;
     font-weight: 500;
     padding-right: 16px;
-    
+    /* padding: 16px 32px 0 0; */
+    border: 2px solid #000;
+    box-shadow: 5px 10px #504a12;
 }
 
 
