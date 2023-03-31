@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/functions.js"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="landing-page">
+        <nav>
+            <figure class="logo-wrapper">
+                <a href="#">
+                    <img class="logo-wrapper__img" src="/assets/logo.png" alt="California Logo">
+                </a>
+            </figure>
+
+            <ul class="nav-list">
+                <li class="nav-list__link">
+                    <a href="/index.html" class="
+                    nav-list__link__anchor
+                    link-hover--effect
+                    link-hover--effect-black">Home</a>
+                </li>
+                <li class="nav-list__link">
+                    <a href="/pages/capital.html" class="
+                    nav-list__link__anchor
+                    link-hover--effect
+                    link-hover--effect-black">Capital</a>
+                </li>
+                <li class="nav-list__link">
+                    <a href="/pages/los-angeles.html" class="
+                    nav-list__link__anchor
+                    link-hover--effect
+                    link-hover--effect-black">Los Angeles</a>
+                </li>
+                <li class="nav-list__link">
+                    <a href="/pages/san-francisco.html" class="
+                    nav-list__link__anchor
+                    link-hover--effect
+                    link-hover--effect-black">San Francisco</a>
+                </li>
+                <li class="nav-list__link">
+                    <a href="#" class="
+                    nav-list__link__anchor
+                    btn contact-btn" target="_blank">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+
+        <header class="landing-page contact--img">
+            <div class="landing-page__content">
+                <h1 class="landing-page__title">Contact Us</h1>
+                <p class="landing-page__para"><em>Get in touch, we're here to help!</em></p>
+                <a href="#about">
+                    <button class="landing-page__btn">
+                        Contact
+                    </button>
+                </a>
+            </div>
+        </header>
+
+        <section id="about">
+            <h1 class="about__title">Contact Us</h1>
+            <div class=" container">
+                <div class="form-box">
+                    <form class="form" >
+                        <h1 class="form__title"></h1>
+            
+                        <div class="form__input-group">
+                            <input type="text" class="form__input"  name="user_first-name"  placeholder="First Name">
+                            
+                        </div>
+            
+                        <div class="form__input-group">
+                            <input type="text" class="form__input"  name="user_last-name"  placeholder="Last Name">
+                            
+                        </div>
+
+                        <div class="form__input-group">
+                            <input type="text" class="form__input email" required="1" name="email" id="user_email"  placeholder="Email">
+                        </div>
+
+                        <div class="form__input-group">
+                            <input type="text" class="form__input email--confirm" name="email-confirm" id="user_email--confirm"  placeholder="Confirm Email"
+                             onblur="confirmEmail()">
+                            <div id="form__input-error-message">Email does not match !</div>
+                        </div>
+
+                        <div class="form__input-group">
+                            <textarea class="form__input" rows="10"  name="question"  placeholder="Ask us a question!"></textarea>
+
+                        </div>
+            
+                        <button class="form__button" value="submit">Submit</button>
+            
+                    </form>
+                </div>
+                
+            </div>
+
+        </section>
+
+    </div>
+
+</body>
+</html>

@@ -276,3 +276,126 @@ nav{
 .san-francisco--img{
     background-image: url('/assets/san-francisco.jpg');
 }
+
+/* CONTACT */
+
+.contact--img{
+    background-image: url('/assets/contact.jpg');
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box{
+    
+    width: 50%;
+    max-width: 480px;
+    margin: 16px;
+    padding: 2rem;
+    font-size: 18px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background-color: #000;
+}
+
+.form--hidden{
+    display: none;
+}
+
+.form > *:first-child{
+    margin-top: 0;
+}
+
+.form > *:last-child{
+    margin-bottom: 0;
+}
+
+.form__title{
+    margin-bottom: 2rem;
+    text-align: center;
+    color:  #ffe26a;
+}
+
+.form__message{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 16px;
+}
+
+.form__message--sucess{
+    color: green;
+}
+
+.form__message--error{
+    color: red;
+}
+
+.form__input-group{
+    margin-bottom: 1rem;
+}
+
+.form__input{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid #4b4a4a;
+    outline: none;
+    background: #000;
+    transition: background 0.2s, border-color 0.2s;
+    color: #ffe26a;
+
+}
+
+.form__input::placeholder{
+    color: #ffe26a;
+}
+
+.form__input:focus{
+    border-color: #ffe26a;
+    background: #000;
+}
+
+
+
+#form__input-error-message{
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: red;
+    display: none;
+}
+
+.form__button{
+    width: 100%;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #000;
+    border: 2px solid #ffe26a;
+    border-radius: 4px;
+    outline: none;
+    cursor: not-allowed;
+    background: #ffe26a;
+    transition: all 300ms ease;
+}
+
+.form__button:hover{
+    background-color: #000;
+    color: #ffe26a;
+
+}
+
+.form__button:active{
+    transform: scale(0.98);
+}
+
+.form__text{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
