@@ -231,7 +231,7 @@ nav{
 }
 
 .last-para{
-    width: 70%;
+    width: 60%;
 }
 
 .about__content__wrapper{
@@ -268,7 +268,7 @@ nav{
 }
 
 .about__aside{
-    width: 30%;
+    width: 40%;
     line-height: 2;
     font-style: italic;
     padding: 0 24px;
@@ -279,7 +279,7 @@ nav{
 
 .about__aside__para{
     width: 45%;
-    text-align: justify;
+    /* text-align: justify; */
     float: right;
     font-weight: 500;
     padding-right: 16px;
