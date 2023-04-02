@@ -195,7 +195,7 @@ nav{
     justify-content: center;
     background-color: #ffe26a;
     /* height: 100vh; */
-    padding-bottom: 80px;
+    padding-bottom: 120px;
 }
 
 .about__title{
@@ -204,7 +204,7 @@ nav{
     color: #000;
     font-weight: 800;
     padding-top: 64px;
-    margin: 0 12px 124px 12px;
+    margin: 0 12px 24px 12px;
     }
 
 .about__content{
@@ -227,6 +227,7 @@ nav{
     width: 50%;
     display: flex;
     flex-direction: column;
+
 }
 
 .about__content__para{
@@ -238,9 +239,6 @@ nav{
     padding: 0 24px;
 }
 
-.last-para{
-    width: 60%;
-}
 
 .about__content__wrapper{
     width: 100%;
@@ -253,7 +251,7 @@ nav{
 .about__content__wrapper__img{
     width: 100%;
     max-width: 800px;
-    border-radius: 20px;
+    border-radius: 5%;
     padding: 0 24px;
     float: right;
 }
@@ -284,7 +282,7 @@ nav{
     display: flex;
     justify-content: end;
     align-items: start;
-    margin-top: 24px;
+    margin: 24px 0;
 }
 
 .about__aside__para{
@@ -470,6 +468,10 @@ nav{
     padding-bottom: 80px;
 }
 
+.places__title{
+    margin: 0 12px 120px 12px;
+}
+
  
  .places-table th h1 {
     font-weight: 700;
@@ -540,10 +542,77 @@ nav{
    transition-timing-function: line;
  }
  
+@media (min-width:1461px)
+{
+    .last-para{
+        width: 200%;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width:1460px)
+{
+    .para{
+        width: 200%;
+    }
 
 
+}
 
-@media (max-width:500px){}
+@media (max-width:925px)
+{
+    .para-two{
+        width: 200%;
+    }
+
+    .landing-page__title{
+        font-size: 140px;
+    }
+}
+
+@media (max-width:850px){
+    .about__content{
+        flex-wrap: wrap;
+    }
+
+    .about_content_container{
+        width: 100%;
+    }
+
+    .about_content_img_container{
+        width: 100%;
+        margin-bottom: 80px;
+        align-items: center;
+    }
+
+    .about__content__wrapper {
+        width: 80%;
+        justify-content: center;
+        margin-top: 24px;
+    }
+
+    .about__aside{
+        justify-content: center;
+    }
+
+    .about__aside__para{
+        width: 90%;
+    }
+
+    .para-two{
+        width: 100%;
+    }
+
+    .para{
+        width: 100%;
+    }
+
+    .last-para{
+        width: 100%;
+    }
+
+
+}
 
 
 
